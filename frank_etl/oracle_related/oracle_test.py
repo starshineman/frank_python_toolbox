@@ -6,7 +6,7 @@ os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 import cx_Oracle
 
 
-conn = cx_Oracle.connect('bi_ods/ods4(A@10.100.20.11/cedb')
+conn = cx_Oracle.connect('bi_ods/cedb')
 print conn.encoding
 cursor = conn.cursor()
 cursor.execute("select * from dual")
