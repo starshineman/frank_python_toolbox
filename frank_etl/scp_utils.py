@@ -43,4 +43,3 @@ if __name__ == "__main__":
     filename = sys.argv[6]
     
     scp(ip, port, user, passwd, dst_path, filename)
-    #scp('10.120.64.55', '2222', 'newbi', 'yxgly@123', '/wcc_BI/BI_DATAFILES/',  '/home/bi/caocao/test.sql')
